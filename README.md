@@ -1,2 +1,6 @@
-"Altera��o feito para exec�cio de Git" 
-"#mnzs_fee" 
+# Projeto de Colaboração no GitHub
+Este repositório é usado para praticar o fluxo de colaboração.
+
+Correção aplicada: README atualizado com a descrição correta
+
+
