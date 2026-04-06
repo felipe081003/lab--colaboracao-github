@@ -1,11 +1,4 @@
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def home():
-    return {"status": "API online"}
-
-@app.get("/soma/{a}/{b}")
-def soma(a: int, b: int):
-    return {"resultado": a + b}
+@app.get("/somar/{a}/{b}")
+def somar(a: int, b: int):
+    # ERRO INTENCIONAL: trocar + por -
+    return {"resultado": a - b}
